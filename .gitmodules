@@ -1,0 +1,3 @@
+[submodule "lightspeed"]
+	path = lightspeed
+	url = https://github.com/carpetscheme/lightspeed.git

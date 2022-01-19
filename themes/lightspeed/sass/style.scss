@@ -50,5 +50,6 @@ img {
 }
 
 pre {
-	overflow: visible;
+	overflow-x: auto;
+	overflow-wrap: break-word;
 }

@@ -24,6 +24,9 @@ highlight_theme = "base16-ocean-light"
 [extra]
 # Put all your custom variables here
 author = "Weilet"
+[extra.footer]
+start_year = "2022"  # start year of the site
+info = ""
 [extra.expressions]
 p404 = ""
 p404_info = ""

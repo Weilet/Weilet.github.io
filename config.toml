@@ -7,18 +7,6 @@ taxonomies = [
   {name = "tags"},
 ]
 
-[[extra.menu]]
-name = "Posts"
-url = ""
-[[extra.menu]]
-name = "Tags"
-url = "tags"
-[[extra.menu]]
-name = "About"
-url = "about"
-[[extra.menu]]
-name = "RSS"
-url = "rss.xml"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -37,6 +25,20 @@ highlight_theme = "base16-ocean-light"
 [extra]
 # Put all your custom variables here
 author = "Weilet"
+
+[[extra.menu]]
+name = "Posts"
+url = ""
+[[extra.menu]]
+name = "Tags"
+url = "tags"
+[[extra.menu]]
+name = "About"
+url = "about"
+[[extra.menu]]
+name = "RSS"
+url = "rss.xml"
+
 [extra.footer]
 start_year = "2022"  # start year of the site
 info = ""

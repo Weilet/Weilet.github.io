@@ -7,6 +7,19 @@ taxonomies = [
   {name = "tags"},
 ]
 
+[[extra.menu]]
+name = "Posts"
+url = ""
+[[extra.menu]]
+name = "Tags"
+url = "tags"
+[[extra.menu]]
+name = "About"
+url = "about"
+[[extra.menu]]
+name = "RSS"
+url = "rss.xml"
+
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
@@ -28,8 +41,8 @@ author = "Weilet"
 start_year = "2022"  # start year of the site
 info = ""
 [extra.expressions]
-p404 = ""
+p404 = "404"
 p404_info = ""
 p404_back_home_start = ""
-p404_back_home_with_link = "来到了空白的世界"
+p404_back_home_with_link = ""
 p404_back_home_end = ""

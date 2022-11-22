@@ -4,11 +4,11 @@ template = "about/section.html"
 +++
 # About me
 
-I am **web developer**.
+I am a **web developer**.
 
-I am interested in **Rust**, **database** and **parallel programming**.
+I use **Javascript** and **Python** as my daily programming language.
 
-I can speak **Chinese** and **English**.
+I am interested in **Rust**, **front-end toolchains**, and **concurrent programming**.
 
 # Contact me
 

@@ -47,7 +47,7 @@ theme="lightspeed"
 
 ### Auto CI/CD
 
-See official doc: *[传送门](https://www.getzola.org/documentation/deployment/github-pages/)*
+See official doc: *[here](https://www.getzola.org/documentation/deployment/github-pages/)*
 
 ## Conclusion 🐱
 Pros:

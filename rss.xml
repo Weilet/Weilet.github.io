@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>Weilet&#x27;s blog</title>
+        <link>https://weilet.github.io</link>
+        <description></description>
+        <generator>Zola</generator>
+        <language>en</language>
+        <atom:link href="https://weilet.github.io/rss.xml" rel="self" type="application/rss+xml"/>
+        <lastBuildDate>Sun, 09 Jan 2022 18:18:18 +0800</lastBuildDate>
+        <item>
+            <title>Set up your blog with zola</title>
+            <pubDate>Sun, 09 Jan 2022 18:18:18 +0800</pubDate>
+            <link>https://weilet.github.io/use-zola-to-set-up-blog/</link>
+            <guid>https://weilet.github.io/use-zola-to-set-up-blog/</guid>
+            <description>&lt;blockquote&gt;
+&lt;p&gt;zola is a fast static site generator in a single binary with everything built-in. This article is about how to build a blog in Github Pages with zola&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;initialize-your-blog&quot;&gt;Initialize your blog&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;install-zola&quot;&gt;Install zola&lt;&#x2F;h3&gt;
+&lt;p&gt;I use WSL on Windows 10, with Homebrew as a package manager, and the install command is: &lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#eff1f5;color:#4f5b66;&quot;&gt;&lt;code&gt;&lt;span&gt;brew install Zola
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;initialize-a-directory&quot;&gt;Initialize a directory&lt;&#x2F;h3&gt;
+&lt;p&gt;use &lt;code&gt;zola init&lt;&#x2F;code&gt; command to initialize a directory&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#eff1f5;color:#4f5b66;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;zola&lt;&#x2F;span&gt;&lt;span&gt; init blog
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h2 id=&quot;install-theme&quot;&gt;Install theme&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;go-to-theme-directory&quot;&gt;Go to theme directory&lt;&#x2F;h3&gt;
+&lt;pre style=&quot;background-color:#eff1f5;color:#4f5b66;&quot;&gt;&lt;code&gt;&lt;span&gt;cd blog&#x2F;themes
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;clone-the-theme-you-want&quot;&gt;Clone the theme you want&lt;&#x2F;h3&gt;
+&lt;pre style=&quot;background-color:#eff1f5;color:#4f5b66;&quot;&gt;&lt;code&gt;&lt;span&gt;git clone https:&#x2F;&#x2F;github.com&#x2F;carpetscheme&#x2F;lightspeed.git
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;config-in-config-toml&quot;&gt;Config in config.toml&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;toml&quot; style=&quot;background-color:#eff1f5;color:#4f5b66;&quot; class=&quot;language-toml &quot;&gt;&lt;code class=&quot;language-toml&quot; data-lang=&quot;toml&quot;&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;theme&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;lightspeed&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;auto-ci-cd&quot;&gt;Auto CI&#x2F;CD&lt;&#x2F;h3&gt;
+&lt;p&gt;See official doc: &lt;em&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;documentation&#x2F;deployment&#x2F;github-pages&#x2F;&quot;&gt;here&lt;&#x2F;a&gt;&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;conclusion-joy&quot;&gt;Conclusion 🐱&lt;&#x2F;h2&gt;
+&lt;p&gt;Pros:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Easy to install&lt;&#x2F;li&gt;
+&lt;li&gt;All in one binary&lt;&#x2F;li&gt;
+&lt;li&gt;Fast&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Cons:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Not that many theme &lt;&#x2F;li&gt;
+&lt;li&gt;Template syntax is a little bit confusing&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</description>
+        </item>
+    </channel>
+</rss>
